@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  background-color: rgb(25, 32, 222);
+  color: aliceblue;
+  align-items: center;
+}
+
+.wrapper h1 {
+  margin: 1rem;
+}
+.searchBar {
+  display: flex;
+}
+
+.searchBar p {
+  margin: 0.5rem;
+}
+
+.searchBar input {
+  margin-right: 3rem;
+}
