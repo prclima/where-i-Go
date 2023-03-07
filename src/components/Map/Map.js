@@ -15,7 +15,7 @@ function Map({ setBounds, setCoord, center }) {
   return (
     <div className={style.map}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyB-4i1dWwmVrEGBJiqmhju4RcxwYDqZQ4o" }}
+        bootstrapURLKeys={{  }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
         onChange={(e) => {
